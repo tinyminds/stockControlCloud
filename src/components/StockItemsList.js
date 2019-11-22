@@ -1,7 +1,6 @@
 import "./StockItemsList.css";
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import _ from "lodash";
 import * as actions from "../actions";
 import StockItemsListItem from "./StockItemsListItem";
 import Preloader from "./Preloader";
